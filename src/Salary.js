@@ -32,7 +32,7 @@ const Salary = () => {
           <tr style={{ background: '#004aad', color: '#fff' }}>
             <th style={{ padding: '12px' }}>Month</th>
             <th style={{ padding: '12px' }}>Total Salary</th>
-            <th style={{ padding: '12px' }}>PPF</th>
+            <th style={{ padding: '12px' }}>PF</th>
             <th style={{ padding: '12px' }}>Other Deductions</th>
             <th style={{ padding: '12px' }}>Credited Salary</th>
           </tr>
