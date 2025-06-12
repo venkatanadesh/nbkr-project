@@ -8,6 +8,13 @@ function FacultyDashboard() {
   const [showMenu, setShowMenu] = useState(false);
    const handleProfileUpdate = () => {
     navigate('/ProfileUpdate'); };
+    const handleTimeTable = () => {
+    navigate('/TimeTable'); };
+    const handleSalary = () => {
+    navigate('/Salary'); };
+    const handleEntry = () => {
+    navigate('/Entry'); };
+
 
   return (
     <div>
@@ -85,9 +92,9 @@ function FacultyDashboard() {
           <nav>
             <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
               <li><button onClick={handleProfileUpdate} className="dashboard-btn">Profile Update</button></li>
-              <li><button className="dashboard-btn">Time Table</button></li>
-              <li><button className="dashboard-btn">Salary</button></li>
-              <li><button className="dashboard-btn">Entry</button></li>
+              <li><button onClick={handleTimeTable} className="dashboard-btn">Time Table</button></li>
+              <li><button onClick={handleSalary} className="dashboard-btn">Salary</button></li>
+              <li><button onClick={handleEntry} className="dashboard-btn">Entry</button></li>
               <li><button className="dashboard-btn">Leaves</button></li>
               <li><button className="dashboard-btn">Post Events</button></li>
               <li><button className="dashboard-btn">Your Attendance</button></li>
